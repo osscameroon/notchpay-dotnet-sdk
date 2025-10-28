@@ -29,6 +29,13 @@
         "changelog-gen"
       ],
       "rollForward": false
+    },
+    "nuke.globaltool": {
+      "version": "9.0.4",
+      "commands": [
+        "nuke"
+      ],
+      "rollForward": false
     }
   }
 }
