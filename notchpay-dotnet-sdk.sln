@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A27D452-B9D0-4272-8976-DFC84D6E8742}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C790A29C-D4E4-4897-9920-614AC51D2363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchpaySdk", "src\NotchpaySdk\NotchpaySdk.csproj", "{D20FE639-D3DD-46C2-A459-01B441B099EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D20FE639-D3DD-46C2-A459-01B441B099EC} = {8A27D452-B9D0-4272-8976-DFC84D6E8742}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

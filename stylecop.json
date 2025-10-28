@@ -3,7 +3,9 @@
   "settings": {
     "documentationRules": {
       "companyName": "Notchpay",
-      "copyrightText": "Copyright (c) {companyName}. All rights reserved."
+      "copyrightText": "Copyright (c) {companyName}. All rights reserved.",
+      "xmlHeader": false,
+      "fileNamingConvention": "stylecop"
     }
   }
 }
