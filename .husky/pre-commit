@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+dotnet csharpier format .
+git add -u
+
+dotnet build --no-restore
+if [ $? -ne 0 ]; then
+  echo "Build failed"
+  exit 1
+fi

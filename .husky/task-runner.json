@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "name": "format",
+      "command": "dotnet",
+      "args": ["csharpier", "format", "."],
+      "output": "always"
+    },
+    {
+      "name": "build",
+      "command": "dotnet",
+      "args": ["build", "--no-restore"],
+      "output": "always"
+    },
+    {
+      "name": "changelog",
+      "command": "dotnet",
+      "args": ["changelog-gen", "--config", "easybuild.json"],
+      "output": "always"
+    }
+  ]
+}

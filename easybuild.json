@@ -1,0 +1,16 @@
+{
+  "types": [
+    { "name": "feat", "description": "A new feature", "skipTagFooter": true },
+    { "name": "fix", "description": "A bug fix", "skipTagFooter": true },
+    { "name": "docs", "description": "Documentation changes", "skipTagFooter": true },
+    { "name": "style", "description": "Changes that do not affect the meaning of the code", "skipTagFooter": true },
+    { "name": "refactor", "description": "A code change that neither fixes a bug nor adds a feature", "skipTagFooter": true },
+    { "name": "perf", "description": "A code change that improves performance", "skipTagFooter": true },
+    { "name": "test", "description": "Adding missing tests or correcting existing tests", "skipTagFooter": true },
+    { "name": "build", "description": "Changes that affect the build system or external dependencies", "skipTagFooter": true },
+    { "name": "ci", "description": "Changes to CI/CD configuration", "skipTagFooter": true },
+    { "name": "chore", "description": "Changes to the build process or auxiliary tools", "skipTagFooter": true },
+    { "name": "revert", "description": "Reverts a previous commit", "skipTagFooter": true }
+  ],
+  "tags": []
+}
