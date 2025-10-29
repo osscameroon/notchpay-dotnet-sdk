@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C790A29C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchpaySdk", "src\NotchpaySdk\NotchpaySdk.csproj", "{D20FE639-D3DD-46C2-A459-01B441B099EC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{5E43BA7A-7650-4A1D-A8FC-0EE37B3C4A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{D20FE639-D3DD-46C2-A459-01B441B099EC} = {8A27D452-B9D0-4272-8976-DFC84D6E8742}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E43BA7A-7650-4A1D-A8FC-0EE37B3C4A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E43BA7A-7650-4A1D-A8FC-0EE37B3C4A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D20FE639-D3DD-46C2-A459-01B441B099EC}.Release|Any CPU.ActiveCfg = Release|Any CPU

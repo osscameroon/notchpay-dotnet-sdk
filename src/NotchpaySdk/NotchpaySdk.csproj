@@ -1,3 +1,60 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup></PropertyGroup>
+  <PropertyGroup>
+    <PackageId>NotchPay</PackageId>
+    <Authors>OSS Cameroon</Authors>
+    <Company>OSS Cameroon</Company>
+    <Product>Notchpay .NET SDK</Product>
+    <Description>Official .NET SDK for the Notchpay Payment API - Accept payments across Africa with Mobile Money, cards, and more</Description>
+    <Copyright>Copyright (c) Notchpay. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/osscameroon/notchpay-dotnet-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osscameroon/notchpay-dotnet-sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>notchpay;payment;africa;mobile-money;payments;api;sdk;dotnet</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Candoumbe.Pipelines" />
+    <PackageReference Include="GitVersion.MsBuild">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="Polly" />
+    <PackageReference Include="Polly.Extensions.Http" />
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="System.Text.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Http\Abstractions\" />
+    <Folder Include="Http\Resilience\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="Models\Requests\Beneficiaries\" />
+    <Folder Include="Models\Requests\Customers\" />
+    <Folder Include="Models\Requests\Payments\" />
+    <Folder Include="Models\Requests\Transfers\" />
+    <Folder Include="Models\Requests\Webhooks\" />
+    <Folder Include="Models\Responses\Beneficiaries\" />
+    <Folder Include="Models\Responses\Customers\" />
+    <Folder Include="Models\Responses\Payments\" />
+    <Folder Include="Models\Responses\Transfers\" />
+    <Folder Include="Models\Responses\Webhooks\" />
+    <Folder Include="Services\Abstractions\" />
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
 </Project>
