@@ -43,7 +43,6 @@
     <Folder Include="Http\Abstractions\" />
     <Folder Include="Http\Resilience\" />
     <Folder Include="Models\Common\" />
-    <Folder Include="Models\Enum\" />
     <Folder Include="Models\Requests\Beneficiaries\" />
     <Folder Include="Models\Requests\Customers\" />
     <Folder Include="Models\Requests\Payments\" />
