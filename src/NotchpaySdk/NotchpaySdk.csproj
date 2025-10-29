@@ -35,4 +35,26 @@
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Http\Abstractions\" />
+    <Folder Include="Http\Resilience\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="Models\Requests\Beneficiaries\" />
+    <Folder Include="Models\Requests\Customers\" />
+    <Folder Include="Models\Requests\Payments\" />
+    <Folder Include="Models\Requests\Transfers\" />
+    <Folder Include="Models\Requests\Webhooks\" />
+    <Folder Include="Models\Responses\Beneficiaries\" />
+    <Folder Include="Models\Responses\Customers\" />
+    <Folder Include="Models\Responses\Payments\" />
+    <Folder Include="Models\Responses\Transfers\" />
+    <Folder Include="Models\Responses\Webhooks\" />
+    <Folder Include="Services\Abstractions\" />
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
 </Project>
