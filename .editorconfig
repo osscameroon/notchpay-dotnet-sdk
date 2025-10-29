@@ -220,6 +220,8 @@ dotnet_naming_style.camel_case_style.capitalization = camel_case
 dotnet_diagnostic.CA1305.severity = none
 dotnet_diagnostic.CA1848.severity = none
 dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.SA1633.severity = none
+dotnet_diagnostic.SA1101.severity = none
 
 [*.{json,yml,yaml}]
 indent_size = 2

@@ -1,0 +1,26 @@
+### Initialize Payment
+POST https://api.notchpay.co/payments/initialize
+Authorization: b.your_public_key_here
+Content-Type: application/json
+
+{
+  "amount": 5000,
+  "currency": "XAF",
+  "email": "customer@example.com",
+  "phone": "+237670000000",
+  "description": "Order #12345",
+  "reference": "txn_1234567890",
+  "callback": "https://merchant.com/webhook",
+  "redirect_url": "https://merchant.com/payment/success"
+}
+
+### Initialize Payment (Minimal - Required Fields Only)
+POST https://api.notchpay.co/payments/initialize
+Authorization: b.your_public_key_here
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "currency": "XAF",
+  "email": "test@example.com"
+}

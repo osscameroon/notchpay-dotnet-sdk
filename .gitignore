@@ -122,3 +122,6 @@ $RECYCLE.BIN/
 
 # Backup files
 *.bak
+
+tree.txt
+step.md

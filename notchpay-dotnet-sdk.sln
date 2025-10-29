@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchpaySdk", "src\Notchpay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{5E43BA7A-7650-4A1D-A8FC-0EE37B3C4A99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "requests", "requests", "{C7D21F2F-323C-492B-AA9B-E14C56371DAB}"
+	ProjectSection(SolutionItems) = preProject
+		requests\payments.http = requests\payments.http
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

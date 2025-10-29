@@ -36,13 +36,7 @@
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuration\" />
     <Folder Include="Converters\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Http\Abstractions\" />
-    <Folder Include="Http\Resilience\" />
-    <Folder Include="Models\Common\" />
     <Folder Include="Models\Requests\Beneficiaries\" />
     <Folder Include="Models\Requests\Customers\" />
     <Folder Include="Models\Requests\Payments\" />
